@@ -1,6 +1,11 @@
 # KonfigurasiUML
 config UML
 
+SURABAYA (router)
+MALANG (dns server)
+TUBAN (dhcp server)
+MOJOKERTO (proxy server)
+
 - IP Kelas 
   
   ```
