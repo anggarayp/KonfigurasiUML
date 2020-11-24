@@ -62,7 +62,7 @@ config UML
   iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16
   ```
 
--  **/etc/apt/sources.list**
+- **/etc/apt/sources.list**
 
   ```
   deb http://boyo.its.ac.id/debian stretch main contrib non-free
