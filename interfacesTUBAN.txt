@@ -4,5 +4,5 @@ iface lo inet loopback
 auto eth0
 iface eth0 inet static
 address 10.151.77.132 //IP_TUBAN_tiap_kelompok
-netmask 255.255.255.240
+netmask 255.255.255.248
 gateway 10.151.77.129 //IP_eth1_SURABAYA_tiap_kelompok
