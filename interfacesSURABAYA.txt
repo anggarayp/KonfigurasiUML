@@ -1,0 +1,23 @@
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.151.77.66
+netmask 255.255.255.252
+gateway 10.151.76.65
+
+auto eth1
+iface eth1 inet static
+address 192.168.0.1 //IP_eth1_SURABAYA_tiap_kelompok
+netmask 255.255.255.0
+
+auto eth2
+iface eth2 inet static
+address 192.168.1.1
+netmask 255.255.255.0
+
+auto eth3
+iface eth3 inet static
+address 10.151.77.129
+netmask 255.255.255.248
