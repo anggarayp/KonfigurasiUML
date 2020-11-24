@@ -56,7 +56,7 @@ config UML
   10.151.77.132
   ```
 
--  **iptables.sh**
+- **iptables.sh**
 
   ```
   iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16
