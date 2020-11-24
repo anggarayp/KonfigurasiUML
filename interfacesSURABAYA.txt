@@ -3,9 +3,9 @@ iface lo inet loopback
 
 auto eth0
 iface eth0 inet static
-address 10.151.76.66
+address 10.151.76.66 //IP_eth0_SURABAYA_tiap_kelompok
 netmask 255.255.255.252
-gateway 10.151.76.65
+gateway 10.151.76.65 //IP_tuntap_tiap_kelompok
 
 auto eth1
 iface eth1 inet static
@@ -19,5 +19,5 @@ netmask 255.255.255.0
 
 auto eth3
 iface eth3 inet static
-address 10.151.77.129
+address 10.151.77.129 //NID_DMZ_tiap_kelompok + 1
 netmask 255.255.255.248
